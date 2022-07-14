@@ -1,0 +1,74 @@
+* {
+  overflow: hidden;
+}
+
+.box {
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+}
+.box a{
+  padding-left: 60px;
+}
+.box img{
+  padding-right: 30px;
+}
+.line {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  border: lightgray solid;
+  width: 100%;
+  margin: 20px 5px 20px 0;
+}
+.container {
+  padding-top: 20px;
+  display: flex;
+  text-align: left;
+  padding-left: 20px;
+}
+.info {
+
+  display: flex;
+  padding-left: 145px;
+}
+.info p {
+  padding-right: 30px;
+  font-size: small;
+  color: #454545;
+}
+.info a {
+  padding-right: 30px;
+}
+.profilePicture{
+  border-radius: 50%;
+  margin-right: 25px;
+}
+h3 {
+  font-weight: unset;
+}
+p {
+  display: flex;
+  justify-content: left;
+  color: #454545;
+}
+
+
+.content a {
+  padding: 10px 10px;
+  color: black;
+  font-size: large;
+  text-decoration: none;
+}
+
+.mvg {
+  padding-left: 25px;
+  font-weight: bold;
+}
+.Register input{
+  margin-bottom: 10px;
+  padding: 4px;
+}
+.Register button{
+  padding: 4px;
+}

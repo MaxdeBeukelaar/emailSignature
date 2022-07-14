@@ -1,0 +1,72 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Email Signature</title>
+    <script src="index.js"></script>
+  </head>
+  <body>
+  <div class="Register">
+    <div>
+    <input type="text" id="inputNaam" placeholder="Naam" required>
+    </div>
+    <div>
+    <input type="text" id="inputFunctie" placeholder="Functie" required>
+    </div>
+    <div>
+      <input type="email" id="inputEmail" placeholder="Email" required>
+    </div>
+    <div>
+      <input type="tel" id="inputTel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+             required placeholder="Telefoon nummer">
+    </div>
+    <button onclick="save()">Save</button>
+  </div>
+  <p class="mvg">Met vriendelijke groet,</p>
+    <div class="container">
+      <div class="profilePicture">
+        <img src="https://via.placeholder.com/100" alt="test" />
+      </div>
+
+      <div>
+        <h3 id="name">Floran Dijkstra</h3>
+        <p id="function">Planning & Recruitment</p>
+      </div>
+    </div>
+
+    <div class="info">
+      <div>
+        <p>PHONE</p>
+        <a id="tel" href="tel:+310643251115">+31 (0)6 432 511 15</a>
+      </div>
+
+      <div>
+        <p >EMAIL</p>
+        <a id="email" href="mailto: floran@simpos.nl">floran@simpos.nl</a>
+      </div>
+      <div>
+        <p>WEBSITE</p>
+        <a href="https://simpos.nl/">simpos.nl</a>
+      </div>
+
+    </div>
+
+    <div class="line"></div>
+
+    <div class="box">
+      <img src="img/simposlogo.png" alt="" />
+      <div class="content">
+        <a href="https://simpos.nl/">Simpos B.V.</a> |
+        <a href="https://www.eventpayments.nl/"> Event Payments</a> |
+        <a href="https://tickethub.nl/">Tickethub</a> |
+        <a href="https://crowdteam.nl/">Crowdteam</a>
+      </div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
